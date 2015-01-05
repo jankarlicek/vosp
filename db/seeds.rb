@@ -9,11 +9,11 @@
 r1=Route.new(:label => "R1")
 r2=Route.new(:label => "R2")
 
-c1=Coordinate.new(:coordinate_E => 50.1111, :coordinate_N => 15.1111)
-c2=Coordinate.new(:coordinate_E => 50.2221, :coordinate_N => 15.2221)
-c3=Coordinate.new(:coordinate_E => 50.3331, :coordinate_N => 15.3331)
-c4=Coordinate.new(:coordinate_E => 50.4441, :coordinate_N => 15.4441)
-c5=Coordinate.new(:coordinate_E => 50.5551, :coordinate_N => 15.5551)
+c1=Coordinate.new(:coordinate_E => 11, :coordinate_N => 12)
+c2=Coordinate.new(:coordinate_E => 21, :coordinate_N => 22)
+c3=Coordinate.new(:coordinate_E => 31, :coordinate_N => 32)
+c4=Coordinate.new(:coordinate_E => 41, :coordinate_N => 42)
+c5=Coordinate.new(:coordinate_E => 51, :coordinate_N => 52)
 
 n1=Node.new(:label => "N1")
 

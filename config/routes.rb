@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'routes' => 'route#index'
+
+  resources :route_points
+
   resources :route_orders
 
   # The priority is based upon order of creation: first created -> highest priority.

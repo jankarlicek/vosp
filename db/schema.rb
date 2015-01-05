@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141229135816) do
+ActiveRecord::Schema.define(version: 20141230102227) do
 
   create_table "atach_files", force: true do |t|
     t.integer  "route_id"
@@ -53,6 +53,14 @@ ActiveRecord::Schema.define(version: 20141229135816) do
     t.integer  "route_order"
     t.integer  "coordinate_id"
     t.integer  "route_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "route_points", force: true do |t|
+    t.integer  "coordinate_id"
+    t.integer  "route_id"
+    t.integer  "point_order"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
